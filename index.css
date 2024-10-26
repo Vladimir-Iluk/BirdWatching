@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header {
+    
+    background-color: #1a604e;
+}
+header .hLogo{
+    font-family: 'Old English Text MT', serif;
+    font-size: 48px;
+    color:black;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+ul,
+ul li,
+ul li a {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  text-align: center;
+  flex-direction: row;
+}
+
+ul li a {
+  min-height: 70px;
+  text-decoration: none;
+  color: pink;
+  
+  
+  align-items: center;
+  justify-content: center;
+}
+.main {
+    display: flex;
+    background-color: #1a604e;
+    margin-bottom: 10px;
+}
+.footer{
+    display: flex;
+    background-color: #1a604e;
+    
+}
+
+.main .Welcome {
+    text-align: center;
+    background-color: limegreen;
+    width: 60%;
+    margin: 5px 5px 5px 5px;
+}
+.main .Favourite {
+    text-align: center;
+    background-color: limegreen;
+    width: 40%;
+    margin: 5px 5px 5px 5px;
+}
+.Image {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 5px; 
+}
+.Image img {
+    flex: 0 0 48%;
+    height: 150px;
+    width: 150px;
+    margin: 0;
+}
+
+.main .Welcome .MainWelcome{
+    font-family: 'Old English Text MT', serif;
+    overflow-wrap: normal;
+    font-size: 48px;
+    color:black;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.main .Favourite .MainWelcome{
+    font-family: 'Old English Text MT', serif;
+    overflow-wrap: normal;
+    font-size: 48px;
+    color:black;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
